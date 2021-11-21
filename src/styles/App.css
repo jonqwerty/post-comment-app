@@ -67,11 +67,18 @@
     height: 50px;
     width: 100vw;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     padding: 0 15px;
     background: lightgray;
 }
 
 .navbar__links {
-    margin-left: auto;
+   
+}
+
+.title {
+    font-size: 30pt;
+    font-weight: 600;
+    color: teal;
 }

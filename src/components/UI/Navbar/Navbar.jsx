@@ -17,10 +17,11 @@ const Navbar = () => {
         <MyButton onClick={ logout}>
           Log out
         </MyButton>
+        <div className="title">PostCommentApp</div>
         <div className="navbar__links">
           <Link to="/about"> about site</Link>
           <Link to="/posts"> posts</Link>
-        </div>
+        </div> 
 
     </div>
     )
