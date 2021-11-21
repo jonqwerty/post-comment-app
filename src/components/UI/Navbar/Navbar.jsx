@@ -19,8 +19,8 @@ const Navbar = () => {
         </MyButton>
         <div className="title">PostCommentApp</div>
         <div className="navbar__links">
-          <Link to="/about"> about site</Link>
-          <Link to="/posts"> posts</Link>
+          <Link className="navbar__about" to="/about">About</Link>
+          <Link className="navbar__posts" to="/posts"> Posts</Link>
         </div> 
 
     </div>
